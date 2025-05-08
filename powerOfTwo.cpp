@@ -38,7 +38,7 @@ int main() {
     } catch (std::invalid_argument) {
         // The code will be displayed when user enters something
         // other than an integer
-        std::cout << user_num_string << " is a valid input" << std::endl;
+        std::cout << user_num_string << " is an invalid input" << std::endl;
         // The code below will be the code displayed in the terminal
     }
     std::cout << "Thank you \nHave a great day." <<  std::endl;
